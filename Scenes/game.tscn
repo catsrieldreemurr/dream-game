@@ -23,3 +23,15 @@ texture = ExtResource("2_qxrlw")
 
 [node name="PlayerCharacter" parent="." unique_id=1765767671 instance=ExtResource("1_ebmjs")]
 position = Vector2(350, 484)
+
+[node name="Camera2D" type="Camera2D" parent="PlayerCharacter" unique_id=1750225065]
+offset = Vector2(0, -155)
+position_smoothing_enabled = true
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1581058615]
+position = Vector2(314, -173)
+texture = ExtResource("2_qxrlw")
+
+[node name="Icon4" type="Sprite2D" parent="." unique_id=1062272922]
+position = Vector2(317, -778)
+texture = ExtResource("2_qxrlw")
