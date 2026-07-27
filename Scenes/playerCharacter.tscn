@@ -14,3 +14,7 @@ texture = ExtResource("2_uj20r")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=999591315]
 scale = Vector2(6, 6)
 shape = SubResource("RectangleShape2D_lknxi")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=104951973]
+offset = Vector2(0, -155)
+position_smoothing_enabled = true
