@@ -18,7 +18,7 @@ position = Vector2(-11, 451)
 texture = ExtResource("2_qxrlw")
 
 [node name="Icon2" type="Sprite2D" parent="." unique_id=1689378561]
-position = Vector2(680, 470)
+position = Vector2(709, 473)
 texture = ExtResource("2_qxrlw")
 
 [node name="PlayerCharacter" parent="." unique_id=1765767671 instance=ExtResource("1_ebmjs")]
