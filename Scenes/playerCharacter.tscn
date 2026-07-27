@@ -4,17 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://bu7td553v8hsk" path="res://Assets/dreamgametemp.png" id="2_xpasy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lknxi"]
+size = Vector2(27.166668, 31)
 
 [node name="PlayerCharacter" type="CharacterBody2D" unique_id=1765767671]
 script = ExtResource("1_xpasy")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1559957041]
-position = Vector2(-26.999996, -10)
-scale = Vector2(0.08980407, 0.08817126)
+position = Vector2(3.8146973e-06, 0)
+scale = Vector2(0.11892235, 0.13479681)
 texture = ExtResource("2_xpasy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=999591315]
-position = Vector2(-32, -9)
+position = Vector2(-0.50000095, 0)
 scale = Vector2(6, 6)
 shape = SubResource("RectangleShape2D_lknxi")
 
